@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- custom css file link  -->
+  
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<nav class="navbar navbar-expand-md" id="navbar">
+    <a class="navbar-brand" href="index.html"><img src="images/jsrlogo1.png" width="75px" height="75px"></a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(10, 131, 236); color:white; border: 0px;">
+              About Us
+            </a>
+  
+               <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                 <a class="dropdown-item" href="About.html">About</a>
+                <a class="dropdown-item" href="Home.html">Alumni</a>
+                <a class="dropdown-item" href="extra curricular/clubs.html">Extra Curricular Activities</a>
+              </div>
+              </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(10, 131, 236); color:white; border: 0px;">
+              For Student
+            </a>
+  
+             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+               <a class="dropdown-item" href="StudentLogin.html">Student Login</a>
+                <a class="dropdown-item" href="general_instruction.html">General Instructions</a>
+                <a class="dropdown-item" href="career_awareness_program.html">Career Awarness Program</a>
+              </div>
+            </div>
+        </li>
+        <li class="nav-item">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: rgb(10, 131, 236); color:white; border: 0px;">
+              For Company
+            </a>
+  
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="procedure.html">Recuirment Procedure</a>
+               <a class="dropdown-item" href="contactform.html">Company Contact Form</a>
+           
+             </div>
+            </div>
+  
+        </li>
+        
+      </ul>
+    </div>
+  </nav>
+  
+
+<!-- header section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact">
+
+    <form action="/send" method="POST">
+
+        <input type="text" name="Name" class="box" placeholder="name">
+        <input type="email" name ="email" class="box" placeholder="your email">
+        <input type="password" name="password" class="box" placeholder="your password">
+        <textarea name="Message" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+    
+        <input type="submit" class="btn" value="send message">
+    
+    </form>
+    
+    <div class="content">
+    
+        <h3>Contact us for latest updates</h3>
+        <p>NATIONAL INSTITUTE OF TECHNOLOGY JAMSHEDPUR</p>
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i> P.O:NIT Jamshedpur,Jharkhand,India,PIN:831014
+        </div>
+        <div class="icons">
+            <i class="fas fa-globe"></i> www.nitjsr.ac.in
+        </div>
+        <div class="icons">
+            <i class="fas fa-phone"></i> Director: +91-657-237-4108(O) <br> +91-657-237-3246(Fax)
+        </div>
+    
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>why choose us?</h3>
+            <p>NIT Jamshedpur has always been among the top NITs in India.The institute has acheived remarkable accomplishedments in the field of Academic 
+                Excellence </p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="Home.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe us for latest updates</p>
+            <form action="">
+                <input type="email"  name="usermail" placeholder="your email">
+                <input type="submit" class="btn" value="subscribe">
+            </form>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <a href="#">NIT JAMSHEDPUR</a> | all rights reserved. </h1>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="jquery-3.5.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="main.js"></script>
+
+</body>
+</html>

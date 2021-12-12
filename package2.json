@@ -1,0 +1,31 @@
+{
+  "name": "mis",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dropzone": "^6.0.0-beta.2",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "get-css-data": "^2.0.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "react-dropzone": "^11.4.2",
+    "uniqid": "^5.4.0"
+  },
+  "main": "app.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.11"
+  },
+  "description": ""
+}
