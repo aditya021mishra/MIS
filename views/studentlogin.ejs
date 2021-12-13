@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="#">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/style2.css">
+  
+    <link rel="stylesheet" href="/stylesheets/loginstyle.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Student Login </title>
+
+</head>
+<body class="bg">
+    
+    <div class="flex-parent">
+        <div class="flex-items">
+            <a class="dropdown" href="#">About Us</a>
+           <div class="dropdown-content">
+           <a  href="/all/abt">About</a>
+           <a  href="/all/almni">Alumni</a>
+           <a  href="/all/clubb">Extra Curricular Activities</a>
+           </div>
+        </div>
+           <div class="flex-items">
+             <a class="dropdown" href="#">For Company</a>
+            <div class="dropdown-content">
+            <a  href="/all/procdur">Recruitment Procedure</a>
+            <a  href="/all/cntform">Company Contact Form</a>
+            
+            </div>
+           </div>
+
+        <div class="flex-items">
+            <a class="dropdown" href="#">For Student</a>
+           <div class="dropdown-content">
+           <a  href="/studentlogin/stnlogin">Student Login</a>
+           <a  href="/all/gnl_instn">Genreal Instructions</a>
+           <a  href="/all/car_aw_prgrm">Career Awareness Programs</a>
+           </div>
+        </div>
+        
+        <a class="flex-items" href="/all/cnt">Contact Us</a>
+        
+    </div>
+    <br><br>
+    <section class="container-fluid">
+        <section class="row justify-content-center">
+            
+            <section class="col-12 col-sm-6 col-md-3">
+                <div class="form-container">
+                    <h5>STUDENT LOGIN FORM</h5>
+                    <div class="col aligncenter" style="font-weight: bold;font-size: 16;letter-spacing: 2;color:red;"  >
+                        <%=msg %>
+                    </div><br>
+                    <div class="mb-3">
+                    <form action="/studentlogin/fetchlogin" method="POST">
+                      <label for="regno" class="form-label">Registration No.</label>
+                      <input type="text" class="form-control" id="regno" name="registrationnumber" aria-describedby="reg" placeholder="2020PGCACA74" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="InputPassword" class="form-label">Password</label>
+                      <input type="password" class="form-control" name="password" id="InputPassword" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </form>
+                    <br><br>
+                    <div class="mb-3">
+                        <p><a href="#">Forgot password?</a></p>
+                    </div>
+                </div>
+            </section>
+
+            
+        </section>
+    </section>
+
+   
+    
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <%- include('style'); -%>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <h1 class="heading">contact us</h1>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href='/home/dashboard'>home</a></li>
+            <li><a href='/About'>about</a></li>
+            <!-- <li><a href='/signup'>Login</a></li> -->
+            <li><a href='/signup'>Register</a></li>
+            <li><a href='/Contact'>contact</a></li>
+            <li><a href='/home/logout'>Logout</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact">
+
+    <form action="mailto:sindhu1999shukla@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" class="box" placeholder="name">
+        <input type="email" name="emailaddress" class="box" placeholder="your email">
+        <!-- <input type="password" class="box" placeholder="your password"> -->
+        <textarea name="msg" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+    
+        <input type="submit" class="btn" value="send message">
+    
+    </form>
+    
+    <div class="content">
+    
+        <h3>Contact us for latest updates</h3>
+        <p>NATIONAL INSTITUTE OF TECHNOLOGY JAMSHEDPUR</p>
+        <div class="icons">
+            <i class="fas fa-map-marker-alt"></i> P.O:NIT Jamshedpur,Jharkhand,India,PIN:831014
+        </div>
+        <div class="icons">
+            <i class="fas fa-globe"></i> www.nitjsr.ac.in
+        </div>
+        <div class="icons">
+            <i class="fas fa-phone"></i> Director: +91-657-237-4108(O) <br> +91-657-237-3246(Fax)
+        </div>
+    
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<div class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>why choose us?</h3>
+            <p>NIT Jamshedpur has always been among the top NITs in India.The institute has acheived remarkable accomplishedments in the field of Academic 
+                Excellence </p>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#">About</a>>
+            <a href="#">Login</a>
+            <a href="#">Register</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe us for latest updates</p>
+            <form action="">
+                <input type="email" placeholder="your email">
+                <input type="submit" class="btn" value="subscribe">
+            </form>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <a href="#">NIT JAMSHEDPUR</a> | all rights reserved. </h1>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

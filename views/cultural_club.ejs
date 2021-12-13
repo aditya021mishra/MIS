@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="#">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+  <title>Cultural & Dramatics Society</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container-img {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5px;
+    }
+
+    .item {
+      margin: 5px;
+    }
+
+    /* ul {
+      list-style: none;
+    } */
+
+      /*--- navigation bar ---*/
+
+
+
+.navbar {
+	background-color:rgb(10, 131, 236);
+}
+
+.nav-text{
+	color: white;
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: black;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 10px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+.nav-link,
+.navbar-brand {
+	cursor: pointer;
+
+}
+
+.navbar-nav{
+	margin: 30px;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+	color: white;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+	color: black;
+}
+
+
+/*--- footer ---*/
+
+.page-footer {
+	background-color: #222;
+	color: #ccc;
+	padding: 60px 0 30px;
+}
+
+.footer-copyright {
+	color: #666;
+	padding: 40px 0;
+}
+
+    /* for footer responsive */
+    @media(max-width:767px) {
+      .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+      }
+    }
+
+    @media(max-width:574px) {
+      .footer-col {
+        width: 100%;
+
+      }
+    }
+
+    @media(max-width:476px) {
+      .footer-col {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+   <!-- NAVBAR  -->
+   <nav class="navbar navbar-expand-md" id="navbar">
+    <a class="navbar-brand" href="/all/idx"><img src="/images/jsrlogo1 (2).png" width="75px"
+        height="75px"></a>
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="main-navigation">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="/all/abt">About</a></li>
+            <li><a class="dropdown-item" href="/all/almni">Alumni</a></li>
+            <li><a class="dropdown-item" href="/all/clubb">Extra Curricular Activities</a>
+            </li>
+          </ul>
+        </li>
+        </li>
+        <li class="nav-item">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            For Student
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="/studentlogin/stnlogin">Student Login</a></li>
+            <li><a class="dropdown-item" href="/all/gnl_instn">General Instruction</a></li>
+            <li><a class="dropdown-item" href="/all/car_aw_prgrm">Career Awarness Program</a>
+            </li>
+          </ul>
+        </li>
+        </li>
+        <li class="nav-item">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            For Company
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="/all/procdur">Recuirment Procedure</a></li>
+            <li><a class="dropdown-item" href="/all/cntform">Company Contact From</a></li>
+            <li><a class="dropdown-item" href="/all/car_aw_prgrm">Career Awarness Program</a></li>
+          </ul>
+        </li>
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/all/cnt" style="color: white;">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <!-- CULTURAL CLUB DESCRIPTION  -->
+  <h2
+    style=" text-align: center; font-family: 'Times New Roman', Times, serif;  color:rgb(21, 21, 32); font-weight: 600; padding-top: 5%;">
+    <span>Cultural & Dramatics Society</span>
+  </h2>
+  <div class="panel-body"
+    style="border: 1px solid gray; margin-left: 20px; margin-right: 20px; background-color: rgb(254, 250, 255);">
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="height: 500px;">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/festimg1.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/culturalimg3.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/festimg2.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/festimg3.jpg" style="height: 500px;" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br><br><br>
+    <div class="para" style="padding-left: 5%; padding-right: 5%; margin-top: -2%;">
+      By participating in cultural activities, the students become more passionate. It have several practical
+      implications. The club aims to promote exposure and to increase the awareness of the students towards the finer
+      arts of the world. From dramatics to literature, from poetry to music and dance, this is the place to come and
+      experience it all. The club also acts as a forum to improve one's communication skills, expressivity and critical
+      thinking power. Various enjoyable events are conducted under this club like Music, Dance, Vocals, Anchoring,
+      Dramatics and Fashion. The main event of Cultural and Dramatic Society is cultural fest, Culfest. <br><br>
+      Events organised by Culfest are:
+    </div>
+    <br>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample" style="padding-left: 5%; padding-right: 5%; ">
+      <div class="accordion-item" style="border: 2px solid rgb(197, 195, 195);">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne"
+            style="font-weight: 1000;">
+            VOCALS AND INSTRUMENTS
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">The club encourages and inspires the talent of singing and the art of playing
+            instruments like harmonium, mouth organ, flute, casio, guitar, drums etc.. The students can choose between
+            western vocal music and non-western vocal music . Western Vocal is the kind with which we are most familiar,
+            includes many types of vocal music. Non-western vocal music places with many ethnic groups that have rich
+            traditions of using the voice to make music. The vocalists and instrumentalists are one of the most
+            enthusiastic sections of CDS.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item" style="border: 2px solid rgb(197, 195, 195);">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"
+            style="font-weight: 1000;">
+            DANCE
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            DANCE IS THE CONVERSATION BETWEEN THE BODY AND THE SOUL. And in a student's life, the balance of the body
+            with the soul is of foremost importance. It ensures that the students are not deprived of this form of ful
+            filled exercise. <br>
+            When one starts listing the forms dances this club encompasses...the list is unending. It starts with the
+            Indian dance forms like Bharatnatyam, Kathak, Odissi, Kuchipudi and goes on to hip-hop, contemporary,
+            freestyle, bollywood, mass and many more. It gives immense joy to know that this list is getting longer with
+            every new batch. <br>
+            Beat Breakers is the official name of DANCE CLUB of NIT Jamshedpur. It is a part of CDS.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item" style="border: 2px solid rgb(197, 195, 195);">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"
+            style="font-weight: 1000;">
+            ANCHORING
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            An anchor's job is of humility. It feels great to be on the stage facing an audience that you expect to
+            admire you. At times it might fuill you with a sense of superiority. <br>
+            <span>
+              Induction: In the first round the participants are advised to be the anchor of any event of his/her choice
+              and then in the second round judges give them a sitution and they have to speak on the spot. The quality
+              of person to attract the crowd is checked.
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item" class="accordion-item" style="border: 2px solid rgb(197, 195, 195);">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour"
+            style="font-weight: 1000;">
+            FASHION
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Fashion model is indeed a wonderful field to work in. Society of theme modelling of NIT Jamshedpur, is
+            stunningly innovative. During club meetings, members discuss fashion trends, work on projects, and cover
+            areas of event-planning, sponsorship, and marketing. Sustainable fashion is also on the club's list of
+            project goals - not just eco-freindliness, but also sustainability in terms of work environments and fair
+            labour practices. They won several theme modelling contest. <br>
+            <span style="font-weight: 600;">“Some people view fashion as art, business, or creative design. Some think
+              of fashion as streetwear, clothes inspired by urban themes, or high fashion, like designer clothes. To us
+              in the club, fashion is whatever you want to wear to express yourself.”</span>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item" class="accordion-item" style="border: 2px solid rgb(197, 195, 195);">
+        <h2 class="accordion-header" id="flush-headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive"
+            style="font-weight: 1000;">
+            NUKKAD
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            Proudly associated with our magnificent culture and history, Nukkad team in the institute conveying hard
+            hitting social messages in public spaces is a fine example of talent, artistry and unmatchable confidence.
+            Bringing to light the different reasons responsible for the existence of such miserable issues in our
+            society and how they can be eliminated. <br>
+            Nukkad team has participated and won in many cultural fest held by IIT's like IIT Bombay, IIT Guwahati.
+            There are 10 Nukkad teams present in the Institute.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item" class="accordion-item" style="border: 2px solid rgb(197, 195, 195);">
+        <h2 class="accordion-header" id="flush-headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix"
+            style="font-weight: 1000;">
+            SKIT
+          </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            The parting of the curtains, Lights flooding the stage. The script becoming a reality. The high voltage
+            nervousness and the adrenaline rush before the performance. These are stories from behind the stage, where
+            the real magic happens. When you realize who you really are and feel alive, more than you ever would have
+            before. It brings together those who want to elicit their ideas and emotions, explore new themes through the
+            medium of theatre onto one common stage. <br>
+            Inductions for skit takes place through CDS Inductions. The dialogue delivery, body language and expressions
+            are checked. The 3rd and 4th year students are the judges in induction of 1st year students.
+          </div>
+        </div>
+      </div> <br> <br>
+    </div>
+  </div>
+
+  <br><br><br><br>
+
+    <!-- FOOTER BEGINS -->
+
+    <footer class="page-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+					<h6 class="text-uppercase font-weight-bold">Contact</h6>
+					<p>NIT JSR Adityapur Jamshedpur
+					<br><a href="mailto:tap@nitjsr.ac.in" style="text-decoration:none; color: greenyellow;">tap@nitjsr.ac.in</a>
+					<br><a href="tel:555-666-7777" style="text-decoration:none; color: greenyellow;">555-666-7777</a>
+					<br><a href="https://www.facebook.com/nitjsrnewsupdate" target="blank"><img src="/images/fbicon.png" width="50px" height="50px"></a>
+					<a href="https://www.linkedin.com/in/training-placement-cell-nit-jamshedpur-945859a4/" target="blank"><img src="/images/linkedin1.png" width="50px" height="50px"></a>
+				</p>
+				</div>
+			</div>
+			<div class="footer-copyright text-center">© 2020 Copyright: NIT JSR Web Team</div>
+		</div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+
+
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
