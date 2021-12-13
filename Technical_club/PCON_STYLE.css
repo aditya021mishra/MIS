@@ -1,0 +1,17 @@
+.container-xxl{
+  margin-top: 10px;
+  max-width: 80%;
+  background-color: rgb(248, 237, 186);
+
+  border-color: black;
+  border: 2px solid;
+  
+ 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
